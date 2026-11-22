@@ -5,6 +5,7 @@
 <div style="text-align:center; break-after:page; page-break-after:always;">
   <img src="Cover.png" alt="XC-IPS-2A LCD module" width="50%">
 </div>
+Visit: https://gigasitron.com/en/15-displays
 
 This guide creates a C project for the Raspberry Pi Pico 2 W, links the supplied XC_GUI library, and displays a simple ST7789 screen. The example uses SPI0 and GPIO assignments chosen in the application. Call `LCD_SetPinsSPI()` before `GUI_Init()` to pass the chosen pins to the LCD driver.
 

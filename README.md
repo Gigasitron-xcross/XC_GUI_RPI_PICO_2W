@@ -205,6 +205,7 @@ Disconnect the Pico 2 W. Hold **BOOTSEL** while connecting it to your computer b
 | Blank screen | Check power, GND, your chosen SPI/CS/DC/RST wiring, that `LCD_SetPinsSPI()` is called before `GUI_Init()`, and the module's backlight jumper. |
 
 To use different pins, change the pin definitions used by `main.c`, wire the display accordingly, and pass those values to `LCD_SetPinsSPI()` before `GUI_Init()`. The SPI clock, MOSI, and optional MISO pins must support the same SPI instance you pass to `GUI_Init()`; CS, DC, and RST are ordinary output GPIOs.
+For XC_GUI APIs, image converter, Font converter, please refer to https://github.com/Gigasitron-xcross/XC_GUI
 
 ### References
 

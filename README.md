@@ -3,7 +3,7 @@
 ## Pico SDK integration guide (C)
 
 <div style="text-align:center; break-after:page; page-break-after:always;">
-  <img src="https://chatgpt.com/api/library/files/libfile_27b9728e81208191a0cb8f6d7fe9e2e3/download" alt="XC-IPS-2A TFT LCD module: top view, bottom view, and pin labels" style="width:50%; height:auto; max-height:75vh; object-fit:contain;" />
+  <img src="Cover.png" alt="XC-IPS-2A LCD module" width="50%">
 </div>
 
 This guide creates a C project for the Raspberry Pi Pico 2 W, links the supplied XC_GUI library, and displays a simple ST7789 screen. The example uses SPI0 and GPIO assignments chosen in the application. Call `LCD_SetPinsSPI()` before `GUI_Init()` to pass the chosen pins to the LCD driver.
